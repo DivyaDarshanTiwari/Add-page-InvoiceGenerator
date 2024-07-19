@@ -1,6 +1,6 @@
 // Navbar.js
 
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Navbar extends Component {
   state = {};
@@ -8,7 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg">
-        <span className='log01'>
+        <span className="log01">
           <div>
             <img src="/iv-01.png" alt="logo" className="log ml-3" />
           </div>
@@ -31,17 +31,17 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#features">
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#features">
                 Features
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#price">
                 Pricing
               </a>
             </li>
@@ -56,6 +56,7 @@ class Navbar extends Component {
             />
             <button
               className="btn btn-outline-success my-2 my-sm-0"
+              style={{ color: "black", border: "1px solid black" }}
               type="submit"
             >
               Search

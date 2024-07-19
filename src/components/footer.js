@@ -45,7 +45,7 @@ export default function Footer() {
       <div className="footercontent">
         <div>
           <h2>For more info</h2>
-        </div >
+        </div>
         <form className="forms p1-3">
           <div className="form-group row">
             <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">
